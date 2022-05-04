@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Kaushan+Script&family=Righteous&family=Sarala:wght@400;700&family=Work+Sans:ital,wght@0,300;0,400;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root { /*variáveis*/
+    --cor0: #FEFEFE;
+    --cor1: #e6c4a9;
+    --cor2: #b9825e;
+    --cor3: #e08554;
+    --cor4: #D66022;
+
+    --fonte-padrao: 'sarala', sans-serif;
+    --fonte-destaque: 'righteous', cursive;
+}
+
+* {
+    margin: 0;
+    
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 16px;
+    background: linear-gradient(to left, var(--cor2), var(--cor4));
+    padding: 50px;
+}
+
+.cabeçalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabeçalho-imagem {
+    height: 72px;
+    border-radius: 20px;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.25);
+}
+
+.cabeçalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+ nav .cabeçalho-menu-item {
+    font-family:var(--fonte-padrao);
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+nav > a {
+    color: var(--cor4);
+    padding: 10px;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+    
+}
+
+nav > a:hover{
+    background-color: var(--cor2);
+    color: var(--cor4);
+}
+
+
+             /*FIM DO CABEÇALHO*/
+
+.conteudo {
+    border-top: 0.4px solid var(--cor1);
+    margin-bottom: 48px;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+     }
+
+.conteudo-principal-escrito-titulo {
+    /*OASYS HAIR*/
+    font-family: var(--fonte-destaque);
+    font-weight: 400;
+    font-size: 84px;
+    color: white;
+    text-shadow:  4px 5px 4px rgba(0, 0, 0, 0.25);
+    padding: 30px;  
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: var(--fonte-destaque);
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+}
+
+.conteudo-principal-escrito-botao {
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    margin: 30px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: var(--fonte-destaque);
+    font-weight: 200px;
+    font-size: 15px;
+    color: var(--cor4);
+    transition-duration: 0.5s;
+}
+
+.conteudo-principal-escrito-botao:hover {
+    background-color: var(--cor2);
+}
+
+.conteudo-principal-imagem {
+    height: 300px;
+    border-radius: 70px;
+    margin: 30px;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.25);
+}
+
+.conteudo-sucundario {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 24px;
+   margin-top: 48px;
+}
+
+.conteudo-secundario-titulo {
+    border-top: 0.4px solid white;
+    padding-top: 48px;
+    font-family: var(--fonte-destaque);
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    margin-bottom: 16px;
+    text-align: center;
+    line-height: 2em;
+}
+
+.conteudo-secundario-paragrafo {
+    font-family: var(--fonte-destaque);
+    font-size: 20px;
+    color :white;
+    text-align: center;
+    list-style-position: inside;
+    line-height: 1.5em;
+}
+
+main strong {
+    background-color: var(--cor2);
+    border-radius: 10px;
+}
+
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid white;
+}
+
+.rodape-imagem {
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 70px;
+}

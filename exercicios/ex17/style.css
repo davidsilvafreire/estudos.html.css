@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+* { /*nas configurações globais do css poderei add coisas. veja*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-image: linear-gradient(to left, #8335FF, #01FFDF);
+}
+main {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px  rgba(64, 26, 124, 0.664);
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+h1 {
+color: #0917b1d0;
+text-align: center;
+text-shadow: 2px 2px 2px #06107cc4;
+}
+h2 {
+color: #005a78;
+}
+
+p {
+text-align: justify;
+}

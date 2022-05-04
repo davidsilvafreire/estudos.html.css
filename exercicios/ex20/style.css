@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+/*
+em HTML é ID  no CSS é # - (só pode um elemento)
+em HTML é CLASS  no CSS é . - (pode vários elementos)
+background-image: linear-gradient(to right, rgba(0, 128, 0, 0.966), transparent)
+*/
+
+:root { /*variavel...*/
+    --font-padrao: arial, verdana, helvetica, sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    text-indent: 30px;
+    text-align: justify;
+    color: white;
+   
+}
+
+body{
+    background-color: white;
+    font-family: var(--font-padrao);
+    
+}
+
+header {
+   background-color: green;
+    
+    padding: 5px;
+    border-radius: 5px;
+    margin: 20px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.616);
+}
+
+ header > h1 {
+     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 40px; 
+}
+
+main {
+    background-color: green;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+   margin: 20px;
+}
+main h2.destaque {
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+main p.paragrafo01 {
+    color: white;
+    padding: 30px;
+}
+
+main .paragrafo02 {
+    padding: 30px;
+}
+
+main .paragrafo03 {
+    padding: 30px;
+}
+
+h3 {
+    color: rgb(50, 105, 50);
+}
+.basico {
+color: white ;
+
+}
+
+.intermediario {
+color: white ;
+}
+
+.avancado {
+color: white ;
+}

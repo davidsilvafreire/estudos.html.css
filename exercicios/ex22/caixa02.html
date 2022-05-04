@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(151, 151, 151);
+            margin: 0px;
+        }
+        header{
+            width: 600px;
+            background-color: white;
+            padding: 10px;
+            margin: 10px auto 10px auto;
+            
+        }
+        h1 {
+            box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.521)
+        }
+
+        nav {
+            background-color: rgb(3, 199, 199);
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.514);
+        }
+
+        nav > a {
+           text-decoration: none;
+           color: white;
+           font-weight: 10px;
+           margin-right: 50px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 9px 0px rgb(0, 0, 0, 0.364);
+        }
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+         article > aside {
+            background-color: rgb(175, 172, 172);
+        }
+
+        footer {
+            color: white;
+            background-color: black;
+            text-align: center;
+            padding: 1px;
+            margin: 10px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+     <header><!--cabeçalho do site-->
+         <h1>Estrutura de um site básico</h1>
+         <nav><!--navegações do site-->
+             <a href="#">link</a>
+             <a href="#">link</a>
+             <a href="#">link</a>
+             <a href="#">link</a>
+             <a href="#">link</a>
+         </nav>
+     </header><!--fim do cabeçalho do site-->
+     <main><!--a parte principal do site...-->
+         <section id="assuntos">
+             <h3>Exemplo: assuntos...</h3>
+             <p>Politica tecnologia esportes quantica</p>
+             
+         </section><!--fim das seções de assuntos-->
+         <section id="noticias">
+             <article><!--artigo 01-->
+                 <h3>Artigo 01</h3>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quisquam voluptatum ipsa unde doloremque magni reiciendis hic, perspiciatis totam cumque aperiam? Natus, quas. A recusandae quidem dolores reiciendis quia maiores.</p>
+
+
+                 <aside><!--a parte, de lado...-->
+                     <p>Artigo escrito por...</p>
+                 </aside>
+             </article><!--fim do artigo 01-->
+
+                <article><!--artigo 02-->
+                    <h3>Artigo 02</h3>  
+                    <aside>
+                        <p>Artigo desenvolvido por...</p>
+                    </aside>
+             </article><!--fim do artigo 02-->
+         </section><!--fim da seções de noticias-->
+
+     </main><!--fim da parte príncipal do site!-->
+
+
+     <footer><!--rodapé do site-->
+         <p>Desenvolvido por David</p>
+     </footer>
+     <div id="bola"></div>
+</body>
+</html>
