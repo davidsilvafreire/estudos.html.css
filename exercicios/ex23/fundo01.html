@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de imagem de fundo</title>
+    <style>
+
+        body { /*Personalizando o corpo*/
+            background-image: url(imagens/wallpaper004.jpg);
+        }
+
+
+
+        div.quadrado { /*personalizando apenas as 3 caixas (DIV)*/
+
+            border: 2px solid black; /*tamanho das 3 bordas das caixas (div's)*/
+
+            width: 300px; /*largura das bordas das caixas (das div's)*/
+
+            height: 300px; /*altura das caixas (div's) */
+
+            display: inline-block; /*para colocar as caixas (div) uma do lado da outra*/
+
+            border-radius: 10px;
+
+            background-color: lightgray; /*cor de fundo das 3 caixas (div's) utilizadas */
+        }
+        
+
+        div#a { /*personalizando a primeira caixa (div a)*/
+            background-color: skyblue; 
+        }
+
+        div#b {/*personalizando a segunda caixa (div b)*/
+            background-image: linear-gradient(to bottom, yellow, orange, red);
+        }
+
+        div#c { /*persolizando a terceira caixa (div c)*/
+            background-image: url(imagens/pattern003.png);
+        }
+    </style>
+</head>
+<body>
+    <div class="quadrado" id="a">
+
+    </div>
+    <div class="quadrado" id="b">
+
+    </div>
+    <div class="quadrado" id="c">
+
+    </div>
+</body>
+</html>
