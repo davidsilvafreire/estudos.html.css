@@ -4,24 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fundo 06</title>
+    <title>Fundo fixo de tela</title>
 
     <style>
 
         body {
             height: 100vh;
-            background-color: black;
+        /*     
+            background-color: black; 
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center top;
             background-repeat: no-repeat;
+
             background-size: cover;
+            background-attachment: fixed;
+
+
+            shorthand - background
+
+                color > image > position > repeat > [size] > attachment
+
+        */
+             background: black url(imagens/wallpaper002.jpg) center top  no-repeat    fixed;
+
+             background-size: cover;
+
         }
 
         main {
             background-color: white;
             background-image: url(); /*imagem de fundo no main*/
 
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -36,6 +50,8 @@
     <main>
         <h1>Teste de Imagem de Fundo</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum voluptate cum a quas, officia expedita accusamus eveniet nostrum numquam consequuntur adipisci quam officiis, cumque laboriosam laborum reprehenderit, atque corporis esse. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quasi corporis porro nesciunt nulla, dolor quibusdam itaque veniam cupiditate sapiente omnis vel ducimus eveniet possimus assumenda ipsam inventore quisquam vero. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero debitis saepe nisi doloribus a? Quibusdam dolores iure neque itaque, sapiente illum velit sequi exercitationem accusantium in amet porro perspiciatis? Harum!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum voluptate cum a quas, officia expedita accusamus eveniet nostrum numquam consequuntur adipisci quam officiis, cumque laboriosam laborum reprehenderit, atque corporis esse. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quasi corporis porro nesciunt nulla, dolor quibusdam itaque veniam cupiditate sapiente omnis vel ducimus eveniet possimus assumenda ipsam inventore quisquam vero. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero debitis saepe nisi doloribus a? Quibusdam dolores iure neque itaque, sapiente illum velit sequi exercitationem accusantium in amet porro perspiciatis? Harum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum voluptate cum a quas, officia expedita accusamus eveniet nostrum numquam consequuntur adipisci quam officiis, cumque laboriosam laborum reprehenderit, atque corporis esse. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quasi corporis porro nesciunt nulla, dolor quibusdam itaque veniam cupiditate sapiente omnis vel ducimus eveniet possimus assumenda ipsam inventore quisquam vero. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero debitis saepe nisi doloribus a? Quibusdam dolores iure neque itaque, sapiente illum velit sequi exercitationem accusantium in amet porro perspiciatis? Harum! 
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum voluptate cum a quas, officia expedita accusamus eveniet nostrum numquam consequuntur adipisci quam officiis, cumque laboriosam laborum reprehenderit, atque corporis esse. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quasi corporis porro nesciunt nulla, dolor quibusdam itaque veniam cupiditate sapiente omnis vel ducimus eveniet possimus assumenda ipsam inventore quisquam vero. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero debitis saepe nisi doloribus a? Quibusdam dolores iure neque itaque, sapiente illum velit sequi exercitationem accusantium in amet porro perspiciatis? Harum!
         </p>
     </main>
 </body>
