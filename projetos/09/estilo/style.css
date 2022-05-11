@@ -1,13 +1,30 @@
 @charset "UTF-8";
 
-* {  /*persolizando geral*/
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+/*fontes!*/
+:root { 
+    --fonte01: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte02: 'Passion One', cursive;
+    --fonte03: 'Sriracha', cursive;
+}
+
+
+
+* {  
     margin: 0px;
     padding: 0px;
 }
 
-html, body { /*personalizando o corpo do documento*/
+
+html, body {
     min-height: 100vh; /*tamanho minimo da altura view-port (janela de exibição)*/
     background-color: darkgray;
+
+    font-family: var(--fonte01);
 }
 
 
@@ -18,14 +35,18 @@ header {
     text-align: center;
 }
 
+
 header > h1 { 
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--fonte02);
+    font-size: 10vw;
 }
 
 
 header > p {  
     padding-bottom: 50px;
+    
 }
 
 
@@ -41,13 +62,14 @@ a:hover {
 }
 
 
-
 /*section (seções) configuração geral*/
 section {  
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em; 
     padding-left: 30px;
+    font-family: var(--fonte03);
+    font-size: 3vw;
 }
 
 
@@ -64,9 +86,13 @@ section.imagem {
     color: white;
 }
 
+
 section.imagem > p {
+    display: inline-block; /*mostrar: blocos em linha*/
     background-color: black;
-    width: 300px;
+    width: 500px;
+    padding: 3.5px;
+    
 }
 
 
