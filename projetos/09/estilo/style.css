@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+* {  /*persolizando geral*/
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body { /*personalizando o corpo do documento*/
+    min-height: 100vh; /*tamanho minimo da altura view-port (janela de exibição)*/
+    background-color: darkgray;
+}
+
+
+/*header (cabeçalho)*/
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 { 
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+
+
+header > p {  
+    padding-bottom: 50px;
+}
+
+
+ a { /* link do cabeçalho e rodapé */
+    color: white;
+    text-decoration: none; /*tira o sublinhado padrao*/
+    font-weight: bolder; /*peso da fonte*/
+}
+
+
+a:hover {  
+    text-decoration: underline; /*passando o mouse em cima ele fica sublinhado!*/
+}
+
+
+
+/*section (seções) configuração geral*/
+section {  
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em; 
+    padding-left: 30px;
+}
+
+
+
+section.normal { 
+    background-color: white;
+    color: black;
+}
+
+
+
+section.imagem {  
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+
+section.imagem > p {
+    background-color: black;
+    width: 300px;
+}
+
+
+/*footer (rodapé)*/
+footer {  
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
