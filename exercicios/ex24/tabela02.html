@@ -13,13 +13,14 @@
         }
 
         table{
-            width: 400px;
+            width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
 
         caption {
-            font-size: 1.5em;
+            font-size: 1.3em;
             font-weight: bold;
             padding: 10px;
             background-color: lightgray;
@@ -32,19 +33,29 @@
             
         }
 
+
         thead, tfoot { /*CABEÇA - RODAPÉ*/
-            background-color: gray;
+            background-color: #383838;
             color: white;
         }
 
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: #383838;
+            
+        }
 
-        /* 2n = even-(par) 2n-1 = odd-(ímpar)*/
+
+        /* 2n = even(par) 2n-1 = odd(ímpar)*/
         tbody > tr:nth-child(odd) {
             background-color: white;
             font-weight: bold;
         }
+
+
         tbody > tr:nth-child(even) {
-            background-color: lightgray;
+            background-color: #d3d3d3;
         }
        
 
@@ -84,7 +95,8 @@
         <thead> <!--CABEÇA-->
             <tr> 
                 <th scope="col">Estado</th>
-                <th scope="col" style="width: 50px;">População</th>
+                <th scope="col" style="width:100px">População</th>
+                <!--width da linha central da tabela-->
             </tr>
         </thead>
 
