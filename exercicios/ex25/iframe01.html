@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudos de iframe</title>
+
+    <style>
+        iframe{
+            height: 400px;
+            width: 400px;
+            border: 1px dashed black;
+        }
+        /*o CSS é soberano. significa que mesmo alterar o iframe no documento HTML,
+        o que estará valendo, primeiramente, é na folha de estilo do CSS*/
+    </style>
+
+</head>
+<body>
+    <h1>Testando o uso de um iframe</h1>
+
+<!--Tamanho padrão do iframe é 300x150-->
+
+    <p>Acessando o site do
+        <iframe src="https://www.cursoemvideo.com" frameborder="0" height="500"></iframe>
+           <a href="https://www.cursoemvideo.com" target="_blank" scolling="no">Curso em vídeo</a>
+        para aprender a programar
+    </p>
+
+    <p>O site do <iframe src="https://www.google.com.br" frameborder="0"></iframe> também é muito legal, 
+            <a href="https://www.google.com.br">Google</a>
+        pena que não funciona dentro de um iframe!</p>
+
+        <p>O repositório do !Devon
+            <iframe src="https://github.com/davidsilvafreire" frameborder="0" height="300" width="500"></iframe>
+              <a href="https://github.com/davidsilvafreire" target="_blank">Github</a>
+            também é muito legal!
+        </p>
+</body>
+</html>
