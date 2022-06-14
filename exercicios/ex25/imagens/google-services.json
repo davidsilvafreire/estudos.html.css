@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "532245199750",
+    "project_id": "devon-3cdd4",
+    "storage_bucket": "devon-3cdd4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532245199750:android:c7ae294354b2df2b590a07",
+        "android_client_info": {
+          "package_name": "br.com.devon.loginapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "532245199750-cjvhfrvjcnmj2lc3h3fjlt127iffrb3m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqqLdhrQ8S9K8g5-GeM1Yvo8eMzuNknuc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "532245199750-cjvhfrvjcnmj2lc3h3fjlt127iffrb3m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
